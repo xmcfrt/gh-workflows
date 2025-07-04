@@ -1,0 +1,11 @@
+name: "Run Java Code"
+on:
+  push:
+    branches:
+      - main
+jobs:
+ run_java_code:
+   runs-on: ubuntu-latest
+   steps:
+     - run: |
+         javac Main.java
