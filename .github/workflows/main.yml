@@ -8,4 +8,4 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - run: |
-         javac Main.java
+         javac ./Main.java
